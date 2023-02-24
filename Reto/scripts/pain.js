@@ -12,30 +12,27 @@ const templateProducto = document.querySelector('#templateProducto').content;
 if (opc === 'CORAL' ){
     for (let i of producto1){
         const cloneTemp = templateProducto.cloneNode(true);
-        //cloneTemp.querySelector('.title-card').innerHTML = "Resumen de <i>compra</i>";//
         cloneTemp.querySelector('.total').innerHTML = `TOTAL: ${(i.unidades * precio)}`;
         cloneTemp.querySelector('.cantidad').innerHTML = `unidades: ${i.unidades}`;
-        cloneTemp.querySelector('.color').innerHTML = `color: ${'<img src="../asests/img/coral.png"></img>'}`;
+        cloneTemp.querySelector('.color').innerHTML = `color: ${'<img src="../assets/img/coral.png"></img>'}`;
         fragment.appendChild(cloneTemp);    
     };
 
 } else if (opc === 'TURQUESA' ){
         for (let i of producto2){
             const cloneTemp = templateProducto.cloneNode(true);
-            //cloneTemp.querySelector('.title-card').innerHTML = "Resumen de <i>compra</i>";//
             cloneTemp.querySelector('.total').innerHTML = `TOTAL: ${(i.unidades * precio)}`;
             cloneTemp.querySelector('.cantidad').innerHTML = `unidades: ${i.unidades}`;
-            cloneTemp.querySelector('.color').innerHTML = `color: ${'<img src="../asests/img/Turquesa.jpg"></img>'}`;
+            cloneTemp.querySelector('.color').innerHTML = `color: ${'<img src="../assets/img/Turquesa.jpg"></img>'}`;
             fragment.appendChild(cloneTemp);    
         }
     
     } else if (opc === 'ROSADO' ){
         for (let i of producto3){
             const cloneTemp = templateProducto.cloneNode(true);
-            //cloneTemp.querySelector('.title-card').innerHTML = "Resumen de <i>compra</i>";//
             cloneTemp.querySelector('.total').innerHTML = `TOTAL: ${(i.unidades * precio)}`;
             cloneTemp.querySelector('.cantidad').innerHTML = `unidades: ${i.unidades}`;
-            cloneTemp.querySelector('.color').innerHTML = `color: ${'<img src="../asests/img/rosa.jpg"></img>'}`;
+            cloneTemp.querySelector('.color').innerHTML = `color: ${'<img src="../assets/img/rosa.jpg></img>'}`;
             fragment.appendChild(cloneTemp);    
         }
     
