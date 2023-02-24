@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    border: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.producto{
+    height:470px;
+    width: 310px;
+    margin: 0 auto;
+    border:3px  solid black;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.cardProducto{
+    height:470px;
+    width: 310px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+h1,h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 4px;
+}
+
+div>img{
+    height: 250px;
+    width: 250px;
+}
+.cantidades{
+    border-radius: 2px;
+}
+.producto > input,label,button,select{
+    display: inline-block;
+    width: 80%;
+    margin: 3% 0;
+    font-size: 15px;
+}
+.producto> input{
+    padding: 10px, 2px;
+    border: none;
+    border-bottom:1px solid  black;
+    outline: none;
+}
+.producto> label{
+    text-align: left;
+    padding: 5px;
+}
+.opc{
+    margin-top:2% ;
+    border: 1px solid black;
+    padding: 5px;
+}
+.btn{
+    background: #e2afce;
+    background: linear-gradient(top, #e2afce, #6cc5c9); 
+    background: linear-gradient(to bottom, #e2afce, #6cc5c9);
+    border-radius: 28px;
+    font-size: 14px;
+    padding: 2px 10px;
+    border:2px solidrosado_claro;
+    text-decoration:none;
+}
+.btn:hover{
+    background: #ecbbd5;
+    background:linear-gradient(top, #ecbbd5 #e172ad); 
+    background: linear-gradient(to bottom,#ecbbd5 #e172ad );
+    text-decoration: none;
+}
+.opc option{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border: 50%;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.opc .coral{
+    background-color:#fe834c ;
+}
+.opc .turquesa_medio{
+    background-color: #6cc5c9;
+}
+.opc .rosado_claro{
+    background-color:#ecbbd5;
+}
+.resucompra{
+    height:470px;
+    width: 310px;
+    margin: 0 auto;
+    border:3px  solid black;
+    background-color: white;
+}
+img{
+    width: 3%;
+}
+
+

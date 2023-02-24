@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Reto #1</title>
+
+</head>
+<body>
+    <section class="container">
+        <div class="producto" id="produc">
+            <h1>Termos de aluminio</h1>
+            <img class="imagen" src="./asests/img/producto.jpg" alt="termos">
+            <label for="cantidades" id="cantidades">Cantidad</label>
+            <input class="cantidades" id="cantidad" name="cantidades" placeholder="" type="number" required/>
+            <h5 id="precio">Precio: $25.000</h5>
+            <select class="opc" name="opcion" id="color">
+                <option value="0">Selecione un Color</option>
+                <option  id="coral"  class="coral" value="coral">Coral</option>
+                <option  id="turquesa" class="turquesa_medio" value="turquesa medio">Turquesa</option>
+                <option  id="rosado" class="rosado_claro" value="rosado claro">Rosado</option>
+            </select>  
+            <button type="button" class="btn" id="btnCalcular">Calcular</button> 
+        </div>
+        <section class="Cards">
+          <div class="cardProducto" id="cardProducto"></div>
+        <div class="templateProducto">
+            <template id="templateProducto">   
+                <p class="titulo'"></p>
+                <p class="total"></p>
+                <p class="cantidad"></p>               
+                <p class="color"></p>  
+                                  
+              </template>
+        </div>
+        
+        <script type="module" src="./scripts/main.js"></script> 
+    </section>
+    
+    
+    <script type="module" src="./scripts/main.js"></script>
+
+</body>
+</html>
